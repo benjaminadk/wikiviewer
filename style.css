@@ -1,0 +1,60 @@
+body {
+  background-color: grey;
+}
+
+#wikisearch, #term{
+  font-size: 40px;
+  font-family: "Love Ya Like A Sister", sans-serif;
+
+}
+
+#wikisearch{
+  cursor: pointer;
+}
+
+.mag{
+  font-size: 48px;
+  
+}
+.d-flex{
+  margin-top: 00px;
+}
+.img{
+  height: 300px;
+  width: 300px;
+  margin-right: 60px;
+}
+
+.card{
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  font-family: "Love Ya Like A Sister", sans-serif;
+  -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+  
+}
+.card-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+.card-link{
+  font-size: 32px;
+}
+
+.card-text{
+  font-size: 22px;
+}
+span{
+  padding-left: 10px;
+}
+
+footer{
+  text-align: center;
+  font-family: "Love Ya Like A Sister", sans-serif;
+  margin: 0 20px 20px 0;
+  font-size: 20px;
+  position: relative;
+  top: 300px;
+  
+}
