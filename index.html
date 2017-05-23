@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Wikipedia Viewer Project</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+  <div class='container'>
+<div class='d-flex justify-content-center'>
+<div><a href='https://en.wikipedia.org/wiki/Special:Random' target="_blank"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Wikipedia_svg_logo.svg/500px-Wikipedia_svg_logo.svg.png' alt='wiki icon' class='img'/></a>
+  </div>
+  <form class='form-inline'>
+<label class='sr-only' for='wikisearch'>Search Wikipedia...</label>
+  <div class='input-group m4'>
+  <div class='input-group-addon' style='border-radius: 50px 0 0 50px;'><i class="material-icons mag">search</i><span>Click globe<br>for a suprise</span>
+</div>
+    <input type='search' class='form-control form-control-lg' id='term' placeholder='Search Wikipedia...'>
+  <button type='submit' class='btn btn-lg' id='wikisearch' style='border-radius: 0 50px 50px 0;'>press</button>  
+  </div>
+</form>
+
+</div>
+  </div>
+<div class='container'>
+<div class='d-flex justify-content-center'>
+  <div id='wikilinks'>
+    </div>
+  </div>
+</div>
+<footer>
+  Page Design by ben.Jam(In);
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
